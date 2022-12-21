@@ -37,7 +37,7 @@ function createErrorMessage(message) {
   section.classList.add("error");
   section.innerHTML = `
       <p>There was an error!</p>
-      <p class="message">${error}</p>
+      <p class="message">${message}</p>
     `;
   return section;
 }
